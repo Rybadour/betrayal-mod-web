@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Button } from './components/button';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,8 +10,12 @@ function App() {
       <Text>
         <Title>Traitors Mod</Title>
         <Subtitle>A hidden roles mod for Betrayal House on the Hill</Subtitle>
-
       </Text>
+
+      <Actions>
+        <Link to='new-game'><Button>New Game</Button></Link>
+        <Button>Resume</Button>
+      </Actions>
     </Container>
   );
 }
@@ -27,12 +33,13 @@ const BackgroundImage = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  right: 30px;
+  right: 0;
   height: 300px;
   margin: 0 auto;
   z-index: -1;
   background-image: url('Betrayal_Event_Block_Image.jpeg');
   background-repeat: no-repeat;
+  background-position-x: calc(50% - 30px);
 `;
 
 const Text = styled.div`
@@ -49,6 +56,14 @@ const Title = styled.h1`
 
 const Subtitle = styled.p`
   font-size: 16px;
+`;
+
+const Actions = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
 `;
 
 export default App;
