@@ -1,0 +1,50 @@
+{
+    "vivian": {
+        "name": "Vivian Lopez",
+        "color": "blue"
+    },
+    "madame": {
+        "name": "Madame Zostra",
+        "color": "blue"
+    },
+    "zoe": {
+        "name": "Zoe Ingstrom",
+        "color": "yellow"
+    },
+    "missy": {
+        "name": "Missy Dubourde",
+        "color": "yellow"
+    },
+    "peter": {
+        "name": "Peter Akimoto",
+        "color": "green"
+    },
+    "brandon": {
+        "name": "Brandon Jaspers",
+        "color": "green"
+    },
+    "ox": {
+        "name": "Ox Bellows",
+        "color": "red"
+    },
+    "flash": {
+        "name": "Darren \"Flash\" Williams",
+        "color": "red"
+    },
+    "professor": {
+        "name": "Professor Longfellow",
+        "color": "white"
+    },
+    "father": {
+        "name": "Father Rhinehardt",
+        "color": "white"
+    },
+    "heather": {
+        "name": "Heather Granville",
+        "color": "purple"
+    },
+    "jenny": {
+        "name": "Jenny LeClerc",
+        "color": "purple"
+    }
+}
